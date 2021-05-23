@@ -1,0 +1,56 @@
+
+
+.popularMovies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #010615;
+    z-index: 0;
+    // padding: 50px 100px;
+    //    margin: 6rem;
+    // background: #010615;
+
+    
+    .button{
+        width: 100px;
+        height: 50px;
+        color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .button:hover{
+        width: 130px;
+        height: 50px;
+        letter-spacing: 2px;
+    }
+
+    .button::after{
+        content: "";
+        position: absolute;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+    }
+
+    .button::after,
+    .button::before{
+      
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    // margin: 6rem;
+    // display: grid;
+    // grid-template-columns:repeat(4,1fr) ;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 1rem 0rem;
+  
+}

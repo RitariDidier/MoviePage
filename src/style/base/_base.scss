@@ -1,0 +1,13 @@
+
+html{   
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background: #010615;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
