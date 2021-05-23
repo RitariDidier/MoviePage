@@ -60,9 +60,8 @@ export default {
         getMovie(){
             ApiService.getMovie(this.$route.params.id).then(({ data }) => {
                 this.movie = data;
-                console.log(this.movie.genres);
                 this.genres = this.movie.genres;
-                console.log(this.genres);
+              
       }) 
       
     },
@@ -73,8 +72,5 @@ export default {
 </script>
 
 <style>
-    .asd img{
-        width: 500px;
-        height: 500px;
-    }
+    
 </style>

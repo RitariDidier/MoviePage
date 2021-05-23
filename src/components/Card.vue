@@ -5,7 +5,7 @@
           <img v-bind:src="`${poster_path}`" alt="img" /> 
       </div>
       <div class="content">
-          <h2> {{title}} <span></span> </h2>
+          <h2> {{title}}  <span></span> </h2>
       </div>
   </div>
 

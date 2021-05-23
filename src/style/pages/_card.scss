@@ -5,7 +5,7 @@
     // font-family: 'Pattaya', sans-serif;
     position: relative;
     width: 300px;
-    height: 430px;
+    height: 510px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,12 +35,16 @@
         position: absolute;
         // bottom: 0;
         top: 40%;
-        left: 10px;
-        right:10px;
+        // top: -4%;
+        // left: 10px;
+        // right:10px;
         bottom: 10px;
-        height: 90px;
+        // height: 90px;
+        height: 70px;
+        width: 95%;
         background: rgba(0, 0, 0, 0);
         display: flex;
+        // z-index: -1;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -50,9 +54,7 @@
         transition: 0.5s;
        }
 }
-.box:hover{
-    height: 510px;
-}
+
 
 .box:hover .imgBx img{
     opacity: 1;
@@ -118,12 +120,10 @@
 }
 .box:hover .content
 {
-    margin-top:72%;
-    // top: 2;
+    background-color: #0106159a;
+    transform: translateY(230px);
     opacity: 1;
-    // bottom: 100 !important;
-    // top: 0;
-    // bottom: 0;
+  
 }
 
 .box .content h2{
